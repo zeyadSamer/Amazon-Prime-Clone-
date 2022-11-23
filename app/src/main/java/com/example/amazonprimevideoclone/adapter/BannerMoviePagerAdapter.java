@@ -19,7 +19,7 @@ import java.util.List;
 
 public class BannerMoviePagerAdapter extends PagerAdapter {
 
-
+//implements the abstract class PagerAdapter
     Context context;
     List<BannerMovie> bannerMoviesList;
 

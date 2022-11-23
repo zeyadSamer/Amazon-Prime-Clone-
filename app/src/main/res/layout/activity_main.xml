@@ -40,22 +40,22 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Home" />
+            android:text="HOME" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tv Shows" />
+            android:text="TV SHOWS" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Movies" />
+            android:text="MOVIES" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kids" />
+            android:text="KIDS" />
 
     </com.google.android.material.tabs.TabLayout>
 
@@ -70,6 +70,23 @@
             android:id="@+id/banner_viewPager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
+        <com.google.android.material.tabs.TabLayout
+
+            android:backgroundTint="@android:color/transparent"
+            android:id="@+id/tab_indicator"
+            android:layout_width="wrap_content"
+            app:tabBackground="@drawable/indicator_selector"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_alignParentBottom="true"
+
+            app:tabIndicatorHeight="0dp"
+            app:tabMaxWidth="14dp"
+            />
+
+
     </RelativeLayout>
 
 

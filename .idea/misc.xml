@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/zeyad/StudioProjects/AmazonPrimeVideoCLone/app/src/main/res/drawable/indicator_selector.xml" value="0.1" />
+        <entry key="..\:/Users/zeyad/StudioProjects/AmazonPrimeVideoCLone/app/src/main/res/drawable/selected.xml" value="0.133" />
+        <entry key="..\:/Users/zeyad/StudioProjects/AmazonPrimeVideoCLone/app/src/main/res/drawable/unselected.xml" value="0.1" />
         <entry key="..\:/Users/zeyad/StudioProjects/AmazonPrimeVideoCLone/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/zeyad/StudioProjects/AmazonPrimeVideoCLone/app/src/main/res/layout/banner_movie_layout.xml" value="0.2" />
       </map>
