@@ -60,6 +60,7 @@
     </com.google.android.material.tabs.TabLayout>
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,21 +74,30 @@
 
         <com.google.android.material.tabs.TabLayout
 
-            android:backgroundTint="@android:color/transparent"
             android:id="@+id/tab_indicator"
             android:layout_width="wrap_content"
-            app:tabBackground="@drawable/indicator_selector"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-
             android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@android:color/transparent"
+
+            app:tabBackground="@drawable/indicator_selector"
 
             app:tabIndicatorHeight="0dp"
-            app:tabMaxWidth="14dp"
-            />
+            app:tabMaxWidth="14dp" />
 
 
     </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

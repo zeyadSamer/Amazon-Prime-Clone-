@@ -45,8 +45,9 @@ public class AutoSlider extends TimerTask {
 //
 //
 //                }
+                int index=bannerViewPager.getCurrentItem()+1;
 
-                bannerViewPager.setCurrentItem((bannerViewPager.getCurrentItem()+1) % bannerMovieList.size());
+                bannerViewPager.setCurrentItem(index % bannerMovieList.size());
 
 
 

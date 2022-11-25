@@ -1,7 +1,7 @@
 package com.example.amazonprimevideoclone.adapter;
 
 import android.content.Context;
-import android.media.Image;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.bumptech.glide.Glide;
-import com.example.amazonprimevideoclone.MainActivity;
+
 import com.example.amazonprimevideoclone.R;
 import com.example.amazonprimevideoclone.models.BannerMovie;
 
